@@ -27,9 +27,8 @@ Para visualizar la información, abre el archivo `index.html` en tu navegador we
 ![Screenshot](https://unisa.cdmx.gob.mx/themes/base/assets/images/logos/Logo_Dependencia.png)
 
 ## Autor
-Este proyecto fue realizado por [Tu Nombre].
+Este proyecto fue realizado por Oliver Faustino Paredes Morataya.
 
-## Licencia
-Este proyecto está licenciado bajo los términos de la [Licencia MIT](LICENSE).
+
 
 
