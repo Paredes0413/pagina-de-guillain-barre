@@ -1,30 +1,63 @@
-# La importancia del Síndrome de Guillain-Barré en estudiantes de medicina UNISA
+# Síndrome de Guillain-Barré - Guía Educativa UNISA
 
-## Descripción
-Este proyecto proporciona información detallada sobre el Síndrome de Guillain-Barré (SGB), incluyendo su definición, epidemiología, etiología, clínica, diagnóstico y tratamiento. Está diseñado para ayudar a los estudiantes de medicina de UNISA a comprender mejor esta enfermedad.
+Este proyecto es una guía educativa interactiva sobre el Síndrome de Guillain-Barré, desarrollada específicamente para estudiantes de medicina de la Universidad de la Salud (UNISA).
 
-## Contenido
-- **Definición:** Descripción de qué es el Síndrome de Guillain-Barré.
-- **Epidemiología:** Información sobre la incidencia, mortalidad y distribución por edad del SGB.
-- **Etiología:** Lista de posibles causas y patógenos asociados con el SGB.
-- **Clínica:** Síntomas y características clínicas del SGB.
-- **Diagnóstico:** Métodos diagnósticos, incluyendo análisis de LCR y electroneuromiografía.
-- **Tratamiento:** Opciones de tratamiento, incluyendo inmunoglobulina IV y plasmaféresis.
+## 🎯 Objetivo
 
-## Uso
-Para visualizar la información, abre el archivo `index.html` en tu navegador web. El archivo `styles.css` proporciona los estilos necesarios para la presentación.
+Proporcionar información clara, concisa y actualizada sobre el Síndrome de Guillain-Barré, facilitando el aprendizaje y comprensión de:
+- Definición y características principales
+- Epidemiología
+- Etiología
+- Manifestaciones clínicas
+- Diagnóstico
+- Tratamiento
 
-## Archivos
-- `index.html`: Contiene la estructura principal de la página web.
-- `styles.css`: Contiene los estilos CSS para la página web.
+## 🚀 Características
 
-## Agradecimientos
+- Diseño responsivo adaptado a todos los dispositivos
+- Interfaz intuitiva y fácil de navegar
+- Información estructurada y organizada
+- Estadísticas y datos relevantes
+- Visualización clara de síntomas y tratamientos
+
+## 🛠️ Tecnologías Utilizadas
+
+- HTML5
+- CSS3
+- Diseño responsivo
+- Fuentes de Google (Poppins)
+- Efectos visuales y animaciones CSS
+
+## 📱 Compatibilidad
+
+El sitio web es completamente responsivo y funciona en:
+- Dispositivos móviles
+- Tablets
+- Computadoras de escritorio
+- Diferentes navegadores web modernos
+
+## 👥 Agradecimientos
+
+Este proyecto fue posible gracias a la colaboración de:
 - Dr. Paredes Morataya Oliver Faustino
 - Dr. Soria Cárdenas Oscar
 - Dr. Jiménez Pérez Kevin Cristian
 
-## Capturas de Pantalla
-![Screenshot](https://unisa.cdmx.gob.mx/themes/base/assets/images/logos/Logo_Dependencia.png)
+## 🏥 Acerca de UNISA
+
+La Universidad de la Salud (UNISA) es una institución educativa comprometida con la formación de profesionales de la salud. Para más información, visita [el sitio web oficial de UNISA](https://unisa.cdmx.gob.mx/la-universidad).
+
+## 📄 Licencia
+
+Este proyecto es de uso educativo y está destinado a los estudiantes de medicina de UNISA.
+
+## 🤝 Contribuciones
+
+Si deseas contribuir a este proyecto educativo:
+1. Realiza un fork del repositorio
+2. Crea una rama para tu característica (`git checkout -b feature/NuevaCaracteristica`)
+3. Realiza tus cambios
+4. Envía un pull request
 
 ## Autor
 Este proyecto fue realizado por Oliver Faustino Paredes Morataya.
