@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header class="header">
         <div class="logo-container">
-            <img src="https://unisa.cdmx.gob.mx/themes/base/assets/images/logos/Logo_Dependencia.png" alt="Logo UNISA" class="logo">
+            <img src="https://unisa.cdmx.gob.mx/themes/base/assets/images/logos/Logo_Dependencia.png" alt="Logo UNISA"
+                class="logo">
         </div>
         <h1 class="main-title">La importancia del Síndrome de Guillain-Barré en estudiantes de medicina UNISA</h1>
         <a href="https://unisa.cdmx.gob.mx/la-universidad" class="cta-button" target="_blank">
@@ -24,7 +28,10 @@
     <main class="container">
         <section class="card">
             <h2>Definición</h2>
-            <p>Es una poliradiculoneuropatía aguda en la que el sistema inmunitario ataca los nervios periféricos, causando debilidad, entumecimiento y, en casos graves, parálisis. Los primeros síntomas suelen ser debilidad y hormigueo en las manos y los pies, que pueden extenderse rápidamente a otras partes del cuerpo.</p>
+            <p>Es una poliradiculoneuropatía aguda en la que el sistema inmunitario ataca los nervios periféricos,
+                causando debilidad, entumecimiento y, en casos graves, parálisis. Los primeros síntomas suelen ser
+                debilidad y hormigueo en las manos y los pies, que pueden extenderse rápidamente a otras partes del
+                cuerpo.</p>
         </section>
 
         <section class="card statistics">
@@ -133,8 +140,95 @@
     <footer class="footer">
         <h2>Agradecimientos</h2>
         <p>Dr. Paredes Morataya Oliver Faustino</p>
-        <p>Dr. Soria Cárdenas Oscar</p>
-        <p>Dr. Jiménez Pérez Kevin Cristian</p>
+    </footer>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="https://www.elasertivo.com/wp-content/uploads/2024/03/230419-guillain-barre.jpg" alt="Síndrome de Guillain-Barré" alt="Logo" class="logo">
+        </div>
+        <h1 class="main-title">Formulario de Inscripción y Cuestionario</h1>
+    </header>
+    <main class="container">
+        <!-- Formulario de inscripción -->
+        <section class="card">
+            <h2>Formulario de Inscripción</h2>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required>
+
+                <label for="carrera">Carrera:</label>
+                <select id="carrera" name="carrera" required>
+                    <option value="" disabled selected>Selecciona tu carrera</option>
+                    <option value="medicina">Medicina</option>
+                    <option value="enfermería">Enfermería</option>
+                </select>
+
+                <label for="semestre">Semestre:</label>
+                <select id="semestre" name="semestre" required>
+                    <option value="" disabled selected>Selecciona tu semestre</option>
+                    <option value="1">1º</option>
+                    <option value="2">2º</option>
+                    <option value="3">3º</option>
+                    <option value="4">4º</option>
+                    <option value="5">5º</option>
+                    <option value="6">6º</option>
+                    <option value="7">7º</option>
+                    <option value="8">8º</option>
+                    <option value="9">9º</option>
+                    <option value="10">10º</option>
+                </select>
+
+                <label for="materia">Materia de Interés:</label>
+                <textarea id="materia" name="materia" rows="3" placeholder="Escribe la materia que más te interesa"></textarea>
+
+                <button type="submit" class="cta-button">
+                    Enviar Inscripción
+                    <span class="button-hover"></span>
+                </button>
+            </form>
+        </section>
+
+        <!-- Cuestionario -->
+        <section class="card">
+            <h2>Cuestionario</h2>
+            <form>
+                <label>1. ¿Qué tipo de neuropatía es el síndrome de Guillain-Barré?</label>
+                <div>
+                    <label><input type="radio" name="p1" value="a"> Poliradiculopatía crónica</label>
+                    <label><input type="radio" name="p1" value="b"> Poliradiculoneuropatía aguda</label>
+                    <label><input type="radio" name="p1" value="c"> Mononeuropatía periférica</label>
+                    <label><input type="radio" name="p1" value="d"> Neuropatía autonómica</label>
+                </div>
+
+                <label>2. ¿Cuál es la incidencia anual de Guillain-Barré?</label>
+                <div>
+                    <label><input type="radio" name="p2" value="a"> 0.6-4 por 1,000 habitantes/año</label>
+                    <label><input type="radio" name="p2" value="b"> 0.6-4 por 100,000 habitantes/año</label>
+                </div>
+
+                <label>3. Escribe tres agentes infecciosos asociados al síndrome:</label>
+                <textarea name="p3" rows="3" placeholder="Escribe aquí..."></textarea>
+
+                <button type="submit" class="cta-button">
+                    Enviar Cuestionario
+                    <span class="button-hover"></span>
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2024 pagina echa por Oliver para la Universidad de la salud </p>
     </footer>
 </body>
 </html>
